@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+#button{
+    background: linear-gradient(226.35deg, #FD8209 0.36%, #FD9C3D 0.37%, #C53B00 100.36%);
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+
+.navbar{
+    background: linear-gradient(180deg, #11366F 0%, #1E1E1E 100%);
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul:last-child{
+    margin-right: 0.875rem;
+}
+
+.navbar ul li:last-child{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.navbar ul li a span{
+    color: white;
+    font-size: 1.25rem;
+}
+
+.background{
+    background: url('/img/Fond\ D\'écran.png') no-repeat;
+    height: 100vh;
+
+}
+
+.background p{
+    position: relative;
+}
+
+.blur{
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3.5rem;
+}
+
+.blur p{
+    font-size: 3rem;
+    color: white;
+}
+
+.blur p span{
+    font-size: 3rem;
+}
+
+.blur input{
+    height: 5.5%;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    border: none;
+}
+
+.blur input::placeholder{
+    position: absolute;
+    font-size: 2.25rem;
+    left: 2.15%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.brillance{
+    background: linear-gradient(226.35deg, #FD8209 0.36%, #FD9C3D 0.37%, #C53B00 100.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
